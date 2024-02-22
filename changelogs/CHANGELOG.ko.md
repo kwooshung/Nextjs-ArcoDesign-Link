@@ -1,3 +1,7 @@
+## 🎉 1.0.2 `2024-02-23`
+### 🐛 Fix
+- 테스트 코드를 수정하고 스냅 샷을 제거하십시오. 그렇지 않으면 GitHub 동작 환경을 테스트 할 수 없습니다. ([#61f0497](https://github.com/kwooshung/Nextjs-ArcoDesign-Link/commit/61f0497d375d1a56f1d5773db499f2087dfba5bd))
+
 ## 🎉 1.0.1 `2024-02-23`
 ### 🆕 Add
 - 완전한 테스트 코드를 추가했습니다 ([#fe7a955](https://github.com/kwooshung/Nextjs-ArcoDesign-Link/commit/fe7a955b50da9105c6fa1aecea7a487bb9ffdce7))

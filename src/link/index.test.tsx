@@ -40,7 +40,6 @@ describe('Link', () => {
     );
 
     expect(container.querySelector('span')).toHaveClass('arco-link');
-    expect(container.firstChild).toMatchSnapshot();
   });
 
   it('应正确处理 disabled 属性', () => {

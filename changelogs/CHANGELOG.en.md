@@ -1,3 +1,7 @@
+## 🎉 1.0.2 `2024-02-23`
+### 🐛 Fix
+- Modify the test code and remove the snapshot, otherwise the GitHub Action environment cannot be tested ([#61f0497](https://github.com/kwooshung/Nextjs-ArcoDesign-Link/commit/61f0497d375d1a56f1d5773db499f2087dfba5bd))
+
 ## 🎉 1.0.1 `2024-02-23`
 ### 🆕 Add
 - Added a complete test code ([#fe7a955](https://github.com/kwooshung/Nextjs-ArcoDesign-Link/commit/fe7a955b50da9105c6fa1aecea7a487bb9ffdce7))
