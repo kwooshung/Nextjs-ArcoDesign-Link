@@ -21,4 +21,5 @@ coverage
 *.njsproj
 *.sln
 *.sw?
+__snapshots__
 .cvlar-commit-message-*.tmp

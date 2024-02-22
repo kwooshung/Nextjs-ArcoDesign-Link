@@ -27,7 +27,7 @@ export interface ILinkProps extends Omit<AnchorHTMLAttributes<HTMLAnchorElement>
    * @zh 不同状态
    * @en The status of `Link`
    */
-  status?: 'default' | 'error' | 'success' | 'warning';
+  status?: 'error' | 'success' | 'warning';
   /**
    * @zh 是否禁用
    * @en Whether to disable
