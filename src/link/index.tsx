@@ -1,5 +1,3 @@
-'use client';
-
 import { FC, ReactNode } from 'react';
 import LinkNext from 'next/link';
 import { Link as LinkArcoDesign } from '@arco-design/web-react';
