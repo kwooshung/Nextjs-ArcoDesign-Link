@@ -35,6 +35,8 @@
 
 # 为什么使用它？
 
+- 支持自动判断域名是否属于自己 `rel='noopener noreferrer'`，防止 **window.opener** 攻击，提高安全性；
+- 支持通过 'LinkProvider' 组件设置全局链接白名单，自动判断是否需要添加 `rel='noopener noreferrer'`；
 - 使用方便，操作简单，**学习成本低**，灵活性高；
 - **ES6** 的现代特性实现；
 - **TypeScript** 编写，类型安全；
@@ -69,11 +71,11 @@ pnpm add @kwooshung/nextjs-arcodesign-link
 # 使用方法
 
 ```tsx
-import { Link } from '@kwooshung/nextjs-arcodesign-link';
+import { LinkProvider, Link } from '@kwooshung/nextjs-arcodesign-link';
 
 const App = () => {
   return (
-    <>
+    <LinkProvider>
       <Link href='#' status='error'>
         Error Link
       </Link>
@@ -92,7 +94,7 @@ const App = () => {
       <Link href='#' status='warning' disabled>
         Warning Link
       </Link>
-    </>
+    </LinkProvider>
   );
 };
 
@@ -104,7 +106,21 @@ export default App;
 - [NextJs App Router](https://nextjs.org/docs/app/api-reference/components/link)
 - [Arco Design Link](https://arco.design/react/components/link)
 
-## ArcoDesign Link
+## LinkProvider
+
+全局链接配置，用于设置全局链接白名单，自动判断是否需要添加 `rel='noopener noreferrer'`。
+
+### LinkProvider Props
+
+| 属性      | 描述                                                             | 类型                                                                                                                                                                                                                                                                                                                                              | 默认值 |
+| --------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| whitelist | 全局链接白名单，自动判断是否需要添加 `rel='noopener noreferrer'` | ['zhidi.vip', 'wozhidi.vip', 'wozhidi.com', 'google.com', 'bing.com', 'baidu.com', 'yandex.ru', 'duckduckgo.com', 'yahoo.com', 'facebook.com', 'twitter.com', 'instagram.com', 'linkedin.com', 'weibo.com', 'zhihu.com', 'mp.weixin.qq.com', 'tiktok.com', 'douyin.com', 'pinterest.com', 'reddit.com', 'snapchat.com', 'telegram.org', 'vk.com'] | `-`    |
+
+## Link
+
+链接组件，结合了 **NextJs** 的 **Link** 组件和 **Arco Design** 的 **Link** 组件的所有属性。
+
+### ArcoDesign Link Props
 
 | 属性      | 描述                                     | 类型                              | 默认值 | 版本   |
 | --------- | ---------------------------------------- | --------------------------------- | ------ | ------ |
@@ -115,7 +131,7 @@ export default App;
 | icon      | 显示图标，设置为 `true` 时展示默认图标。 | ReactNode \| boolean              | `-`    | -      |
 | style     | 节点样式                                 | CSSProperties                     | `-`    | -      |
 
-## NextJs Link
+### NextJs Link Props
 
 | 属性           | 描述                                                                                                                                                                                                                                                                                                                                                                                                                                  | 类型                                       | 默认值  |
 | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ | ------- |
