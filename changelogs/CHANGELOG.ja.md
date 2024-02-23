@@ -1,3 +1,7 @@
+## 🎉 1.0.5 `2024-02-24`
+### ✨ Feature
+- コンポーネントの小道具、ネイティブネイティブをサポートし、新しく追加されたテストファイルを追加 ([#069095c](https://github.com/kwooshung/Nextjs-ArcoDesign-Link/commit/069095ca922da19772eec52be3a956f148c789fb))
+
 ## 🎉 1.0.4 `2024-02-24`
 ### 🐛 Fix
 - ネイティブ属性をリンクに追加し、前にサポートを追加するのを忘れて ([#0cac740](https://github.com/kwooshung/Nextjs-ArcoDesign-Link/commit/0cac740b2b98510e5f39f4488aabcd653eeb4824))

@@ -14,7 +14,6 @@ const Link: FC<ILinkProps> = ({
   disabled,
   hoverable,
   href,
-  target,
   as,
   replace,
   scroll,
