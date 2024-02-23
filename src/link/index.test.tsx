@@ -62,4 +62,18 @@ describe('Link', () => {
     const link = container.querySelector('.arco-link');
     expect(link).toHaveClass('arco-link-hoverless');
   });
+
+  it('应正确处理a原生属性', () => {
+    const { container } = render(
+      <Link href='https://example.com' hoverable={false} target='_blank' download='file.zip'>
+        链接文本
+      </Link>
+    );
+
+    const link = container.querySelector('a');
+    const span = link?.querySelector('span');
+    expect(link).toHaveAttribute('target', '_blank');
+    expect(link).toHaveAttribute('download', 'file.zip');
+    expect(span).toHaveClass('arco-link-hoverless');
+  });
 });
