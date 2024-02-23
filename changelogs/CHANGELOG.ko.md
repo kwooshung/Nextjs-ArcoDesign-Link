@@ -1,3 +1,11 @@
+## 🎉 1.0.4 `2024-02-24`
+### 🐛 Fix
+- 링크에 기본 속성을 추가하고 이전에 지원을 추가하는 것을 잊어 버리십시오. ([#0cac740](https://github.com/kwooshung/Nextjs-ArcoDesign-Link/commit/0cac740b2b98510e5f39f4488aabcd653eeb4824))
+
+## 🎉 1.0.3 `2024-02-23`
+### ✨ Feature
+- 온라인 데모를 늘리십시오 ([#e69ec60](https://github.com/kwooshung/Nextjs-ArcoDesign-Link/commit/e69ec60397d14f5cfbfb6ad0d8836011e02e99c8))
+
 ## 🎉 1.0.2 `2024-02-23`
 ### 🐛 Fix
 - 테스트 코드를 수정하고 스냅 샷을 제거하십시오. 그렇지 않으면 GitHub 동작 환경을 테스트 할 수 없습니다. ([#61f0497](https://github.com/kwooshung/Nextjs-ArcoDesign-Link/commit/61f0497d375d1a56f1d5773db499f2087dfba5bd))

@@ -10,8 +10,8 @@
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/kwooshung/Nextjs-ArcoDesign-Link?labelColor=272e3b&color=165dff)
 ![GitHub issues](https://img.shields.io/github/issues/kwooshung/Nextjs-ArcoDesign-Link?labelColor=272e3b&color=165dff)
 ![Github Stars](https://img.shields.io/github/stars/kwooshung/Nextjs-ArcoDesign-Link?labelColor=272e3b&color=165dff)
-[![NPM Version](https://img.shields.io/npm/v/@kwooshung/Nextjs-ArcoDesign-Link?labelColor=272e3b&color=165dff)](https://www.npmjs.com/package/@kwooshung/Nextjs-ArcoDesign-Link)
-[![Npm.js Downloads/Week](https://img.shields.io/npm/dw/@kwooshung/Nextjs-ArcoDesign-Link?labelColor=272e3b&labelColor=272e3b&color=165dff&logo=npm)](https://www.npmjs.com/package/@kwooshung/Nextjs-ArcoDesign-Link)
+[![NPM Version](https://img.shields.io/npm/v/@kwooshung/nextjs-arcodesign-link?labelColor=272e3b&color=165dff)](https://www.npmjs.com/package/@kwooshung/nextjs-arcodesign-link)
+[![Npm.js Downloads/Week](https://img.shields.io/npm/dw/@kwooshung/nextjs-arcodesign-link?labelColor=272e3b&labelColor=272e3b&color=165dff&logo=npm)](https://www.npmjs.com/package/@kwooshung/nextjs-arcodesign-link)
 [![Github CI/CD](https://github.com/kwooshung/Nextjs-ArcoDesign-Link/actions/workflows/ci.yml/badge.svg)](https://github.com/kwooshung/Nextjs-ArcoDesign-Link/actions/)
 [![codecov](https://codecov.io/gh/kwooshung/Nextjs-ArcoDesign-Link/graph/badge.svg?token=I8pXvFOtv9)](https://codecov.io/gh/kwooshung/Nextjs-ArcoDesign-Link)
 [![Maintainability](https://api.codeclimate.com/v1/badges/5abb5096369ae941be2a/maintainability)](https://codeclimate.com/github/kwooshung/Nextjs-ArcoDesign-Link/maintainability)
@@ -25,7 +25,7 @@
 
 # 为什么开发它？
 
-> 在Next.js项目中，官方建议是使用Next.js Link组件进行导航。 但是，将Arco Design的Link组件集成在Next.js中可能很麻烦。 该组件解决了此问题，提供了与两个框架的属性完全兼容，从而简化了其为开发人员的集成。
+> 在 Next.js 项目中，官方建议是使用 Next.js Link 组件进行导航。 但是，将 Arco Design 的 Link 组件集成在 Next.js 中可能很麻烦。 该组件解决了此问题，提供了与两个框架的属性完全兼容，从而简化了其为开发人员的集成。
 
 # 解决了什么痛点？
 
@@ -41,6 +41,10 @@
 - 可按需引入，**esm** 模块化，天生支持 **树摇（tree-shaking）**，不用担心打包后的体积；
 - 当然本项目也提供了 **commonjs** 规范的 **cjs** 版本；
 - 测试覆盖率 **100%**；
+
+# 在线演示
+
+- [CodeSandbox](https://codesandbox.io/p/devbox/nextjs-arcodesign-link-l8vhhj?file=%2Fapp%2Fpage.tsx%3A5%2C56)
 
 # 安装
 

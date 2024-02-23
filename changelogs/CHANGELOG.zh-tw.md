@@ -1,3 +1,11 @@
+## 🎉 1.0.4 `2024-02-24`
+### 🐛 Fix
+- 將本機屬性添加到鏈接中，忘記添加支持之前 ([#0cac740](https://github.com/kwooshung/Nextjs-ArcoDesign-Link/commit/0cac740b2b98510e5f39f4488aabcd653eeb4824))
+
+## 🎉 1.0.3 `2024-02-23`
+### ✨ Feature
+- 增加在線演示 ([#e69ec60](https://github.com/kwooshung/Nextjs-ArcoDesign-Link/commit/e69ec60397d14f5cfbfb6ad0d8836011e02e99c8))
+
 ## 🎉 1.0.2 `2024-02-23`
 ### 🐛 Fix
 - 修改測試代碼並刪除快照，否則無法測試GitHub動作環境 ([#61f0497](https://github.com/kwooshung/Nextjs-ArcoDesign-Link/commit/61f0497d375d1a56f1d5773db499f2087dfba5bd))

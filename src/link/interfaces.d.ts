@@ -59,6 +59,11 @@ export interface ILinkProps extends Omit<AnchorHTMLAttributes<HTMLAnchorElement>
    */
   replace?: boolean;
   /**
+   * @zh 打开目标
+   * @en Open target
+   */
+  target?: '_self' | '_blank' | '_parent' | '_top' | string;
+  /**
    * @zh 是否覆盖默认的滚动行为
    * @en Whether to override the default scroll behavior
    * @example https://nextjs.org/docs/api-reference/next/link#disable-scrolling-to-the-top-of-the-page

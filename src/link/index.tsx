@@ -14,6 +14,7 @@ const Link: FC<ILinkProps> = ({
   disabled,
   hoverable,
   href,
+  target,
   as,
   replace,
   scroll,
@@ -25,11 +26,13 @@ const Link: FC<ILinkProps> = ({
   onMouseEnter,
   onTouchStart,
   onClick,
-  children
+  children,
+  ...restProps
 }: ILinkProps): ReactNode => {
   return (
     <LinkNext
       {...{ style, href, as, replace, scroll, shallow, passHref, prefetch, locale, legacyBehavior, onMouseEnter, onTouchStart, onClick }}
+      {...restProps}
       className={className ? (Array.isArray(className) ? className.join(' ') : className) : ''}>
       <LinkArcoDesign {...{ style, icon, status, disabled, hoverable }}>{children}</LinkArcoDesign>
     </LinkNext>

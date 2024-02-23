@@ -10,8 +10,8 @@
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/kwooshung/Nextjs-ArcoDesign-Link?labelColor=272e3b&color=165dff)
 ![GitHub issues](https://img.shields.io/github/issues/kwooshung/Nextjs-ArcoDesign-Link?labelColor=272e3b&color=165dff)
 ![Github Stars](https://img.shields.io/github/stars/kwooshung/Nextjs-ArcoDesign-Link?labelColor=272e3b&color=165dff)
-[![NPM Version](https://img.shields.io/npm/v/@kwooshung/Nextjs-ArcoDesign-Link?labelColor=272e3b&color=165dff)](https://www.npmjs.com/package/@kwooshung/Nextjs-ArcoDesign-Link)
-[![Npm.js Downloads/Week](https://img.shields.io/npm/dw/@kwooshung/Nextjs-ArcoDesign-Link?labelColor=272e3b&labelColor=272e3b&color=165dff&logo=npm)](https://www.npmjs.com/package/@kwooshung/Nextjs-ArcoDesign-Link)
+[![NPM Version](https://img.shields.io/npm/v/@kwooshung/nextjs-arcodesign-link?labelColor=272e3b&color=165dff)](https://www.npmjs.com/package/@kwooshung/nextjs-arcodesign-link)
+[![Npm.js Downloads/Week](https://img.shields.io/npm/dw/@kwooshung/nextjs-arcodesign-link?labelColor=272e3b&labelColor=272e3b&color=165dff&logo=npm)](https://www.npmjs.com/package/@kwooshung/nextjs-arcodesign-link)
 [![Github CI/CD](https://github.com/kwooshung/Nextjs-ArcoDesign-Link/actions/workflows/ci.yml/badge.svg)](https://github.com/kwooshung/Nextjs-ArcoDesign-Link/actions/)
 [![codecov](https://codecov.io/gh/kwooshung/Nextjs-ArcoDesign-Link/graph/badge.svg?token=I8pXvFOtv9)](https://codecov.io/gh/kwooshung/Nextjs-ArcoDesign-Link)
 [![Maintainability](https://api.codeclimate.com/v1/badges/5abb5096369ae941be2a/maintainability)](https://codeclimate.com/github/kwooshung/Nextjs-ArcoDesign-Link/maintainability)
@@ -41,6 +41,10 @@
 - Supports on-demand import, **esm** modularization, naturally supports **tree-shaking**, so no worries about the size of the package after bundling.
 - Also provides a **commonjs** version in **cjs** format.
 - Test coverage of **100%**.
+
+# Demo
+
+- [CodeSandbox](https://codesandbox.io/p/devbox/nextjs-arcodesign-link-l8vhhj?file=%2Fapp%2Fpage.tsx%3A5%2C56)
 
 # Installation
 
