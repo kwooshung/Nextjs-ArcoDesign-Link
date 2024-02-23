@@ -75,7 +75,7 @@ import { Link } from '@kwooshung/nextjs-arcodesign-link';
 
 const App = () => {
   return (
-    <>
+    <LinkProvider>
       <Link href='#' status='error'>
         Error Link
       </Link>
@@ -94,7 +94,7 @@ const App = () => {
       <Link href='#' status='warning' disabled>
         Warning Link
       </Link>
-    </>
+    </LinkProvider>
   );
 };
 
