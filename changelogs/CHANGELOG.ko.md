@@ -1,3 +1,7 @@
+## 🎉 1.0.5 `2024-02-24`
+### ✨ Feature
+- 구성 요소 소품, 네이티브 네이티브 지원, 새로 추가 된 테스트 파일 추가 ([#069095c](https://github.com/kwooshung/Nextjs-ArcoDesign-Link/commit/069095ca922da19772eec52be3a956f148c789fb))
+
 ## 🎉 1.0.4 `2024-02-24`
 ### 🐛 Fix
 - 링크에 기본 속성을 추가하고 이전에 지원을 추가하는 것을 잊어 버리십시오. ([#0cac740](https://github.com/kwooshung/Nextjs-ArcoDesign-Link/commit/0cac740b2b98510e5f39f4488aabcd653eeb4824))

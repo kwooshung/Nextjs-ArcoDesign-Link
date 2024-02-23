@@ -1,3 +1,7 @@
+## 🎉 1.0.5 `2024-02-24`
+### ✨ Feature
+- Component props, support native native, add test files newly added ([#069095c](https://github.com/kwooshung/Nextjs-ArcoDesign-Link/commit/069095ca922da19772eec52be3a956f148c789fb))
+
 ## 🎉 1.0.4 `2024-02-24`
 ### 🐛 Fix
 - Add native attributes to the link, forget to add support before ([#0cac740](https://github.com/kwooshung/Nextjs-ArcoDesign-Link/commit/0cac740b2b98510e5f39f4488aabcd653eeb4824))
