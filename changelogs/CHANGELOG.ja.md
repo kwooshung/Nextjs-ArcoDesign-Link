@@ -1,3 +1,7 @@
+## 🎉 2.0.0 `2024-02-24`
+### ✨ Feature
+- 自動判断アドレスをサポートするためのグローバルRELリストを追加しました ([#41924df](https://github.com/kwooshung/Nextjs-ArcoDesign-Link/commit/41924df1053d01cf5c088bc841645d771b5a78a3))
+
 ## 🎉 1.0.5 `2024-02-24`
 ### ✨ Feature
 - コンポーネントの小道具、ネイティブネイティブをサポートし、新しく追加されたテストファイルを追加 ([#069095c](https://github.com/kwooshung/Nextjs-ArcoDesign-Link/commit/069095ca922da19772eec52be3a956f148c789fb))

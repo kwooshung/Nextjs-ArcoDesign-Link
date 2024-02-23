@@ -35,6 +35,8 @@
 
 # Why Use It?
 
+- Supports automatic determination of whether the domain name belongs to one's own `rel='noopener noreferrer'` to prevent **window.opener** attacks and improve security;
+- Support setting the global link whitelist through the 'LinkProvider' component, and automatically determine whether `rel='noopener noreferrer'` needs to be added;
 - Easy to use, simple operation, **low learning curve**, and high flexibility.
 - Implemented with modern **ES6** features.
 - Written in **TypeScript** for type safety.
@@ -104,7 +106,19 @@ export default App;
 - [NextJs App Router](https://nextjs.org/docs/app/api-reference/components/link)
 - [Arco Design Link](https://arco.design/react/components/link)
 
-## ArcoDesign Link
+## LinkProvider
+
+## Link
+
+The link component combines all the properties of the **Link** component of **NextJs** and the **Link** component of **Arco Design**.
+
+### LinkProvider Props
+
+| Property  | Description                                                                                | Type                                                                                                                                                                                                                                                                                                                                              | DefaultValue |
+| --------- | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
+| whitelist | Global link whitelist, automatically determines whether to add `rel='noopener noreferrer'` | ['zhidi.vip', 'wozhidi.vip', 'wozhidi.com', 'google.com', 'bing.com', 'baidu.com', 'yandex.ru', 'duckduckgo.com', 'yahoo.com', 'facebook.com', 'twitter.com', 'instagram.com', 'linkedin.com', 'weibo.com', 'zhihu.com', 'mp.weixin.qq.com', 'tiktok.com', 'douyin.com', 'pinterest.com', 'reddit.com', 'snapchat.com', 'telegram.org', 'vk.com'] | `-`          |
+
+### ArcoDesign Link Props
 
 | Property  | Description                                               | Type                              | DefaultValue | Version |
 | --------- | --------------------------------------------------------- | --------------------------------- | ------------ | ------- |
@@ -115,7 +129,7 @@ export default App;
 | icon      | Custom Icon, Display the default icon when set to `true`. | ReactNode \| boolean              | `-`          | -       |
 | style     | Additional style                                          | CSSProperties                     | `-`          | -       |
 
-## NextJs Link
+### NextJs Link Props
 
 | Property       | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | Type                                       | DefaultValue |
 | -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ | ------------ |

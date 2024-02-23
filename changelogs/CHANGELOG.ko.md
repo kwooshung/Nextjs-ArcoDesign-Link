@@ -1,3 +1,7 @@
+## 🎉 2.0.0 `2024-02-24`
+### ✨ Feature
+- 자동 판단 주소를 지원하기 위해 글로벌 rel 목록이 추가되었습니다. ([#41924df](https://github.com/kwooshung/Nextjs-ArcoDesign-Link/commit/41924df1053d01cf5c088bc841645d771b5a78a3))
+
 ## 🎉 1.0.5 `2024-02-24`
 ### ✨ Feature
 - 구성 요소 소품, 네이티브 네이티브 지원, 새로 추가 된 테스트 파일 추가 ([#069095c](https://github.com/kwooshung/Nextjs-ArcoDesign-Link/commit/069095ca922da19772eec52be3a956f148c789fb))

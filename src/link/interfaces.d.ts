@@ -1,6 +1,36 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { ReactNode, CSSProperties, AnchorHTMLAttributes } from 'react';
 import type { UrlObject } from 'url';
+
+export interface ILinkContext {
+  /**
+   * @zh 白名单，不包含协议，只需写域名即可，例如：`['example.com', 'example.org']`
+   * @en Whitelist, without protocol, just write the domain name, for example: `['example.com', 'example.org']`
+   */
+  whiteList?: string[];
+}
+
+/**
+ * @zh 链接提供者Props属性
+ * @en Link provider props
+ */
+export interface ILinkProviderProps {
+  /**
+   * @zh 白名单，不包含协议，只需写域名即可，例如：`['example.com', 'example.org']`
+   * @en Whitelist, without protocol, just write the domain name, for example: `['example.com', 'example.org']`
+   */
+  whiteList?: string[];
+  /**
+   * @zh 子元素
+   * @en Sub element
+   */
+  children: ReactNode;
+}
+
+/**
+ * @zh 链接类型
+ * @en Link Type
+ */
 type Url = string | UrlObject;
 
 /**
