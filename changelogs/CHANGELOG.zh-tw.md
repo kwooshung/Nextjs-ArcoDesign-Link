@@ -1,3 +1,7 @@
+## 🎉 2.0.0 `2024-02-24`
+### ✨ Feature
+- 添加了一個全局REL列表以支持自動判斷地址 ([#41924df](https://github.com/kwooshung/Nextjs-ArcoDesign-Link/commit/41924df1053d01cf5c088bc841645d771b5a78a3))
+
 ## 🎉 1.0.5 `2024-02-24`
 ### ✨ Feature
 - 組件道具，支持本地本機，添加新添加的測試文件 ([#069095c](https://github.com/kwooshung/Nextjs-ArcoDesign-Link/commit/069095ca922da19772eec52be3a956f148c789fb))

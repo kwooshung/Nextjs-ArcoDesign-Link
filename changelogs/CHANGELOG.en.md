@@ -1,3 +1,7 @@
+## 🎉 2.0.0 `2024-02-24`
+### ✨ Feature
+- Added a global REL list to support automatic judgment address ([#41924df](https://github.com/kwooshung/Nextjs-ArcoDesign-Link/commit/41924df1053d01cf5c088bc841645d771b5a78a3))
+
 ## 🎉 1.0.5 `2024-02-24`
 ### ✨ Feature
 - Component props, support native native, add test files newly added ([#069095c](https://github.com/kwooshung/Nextjs-ArcoDesign-Link/commit/069095ca922da19772eec52be3a956f148c789fb))
