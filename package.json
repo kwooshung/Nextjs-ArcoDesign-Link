@@ -1,6 +1,6 @@
 {
   "name": "@kwooshung/nextjs-arcodesign-link",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "title": "Nextjs-ArcoDesign-Link",
   "description": "About In Next.js projects, the official recommendation is to use the Next.js Link component for navigation. However, integrating Arco Design's Link component within Next.js can be cumbersome. This component resolves this issue, offering full compatibility with the attributes of both frameworks, simplifying their integration for developers.",
   "private": false,

@@ -1,3 +1,7 @@
+## 🎉 1.0.4 `2024-02-24`
+### 🐛 Fix
+- 링크에 기본 속성을 추가하고 이전에 지원을 추가하는 것을 잊어 버리십시오. ([#0cac740](https://github.com/kwooshung/Nextjs-ArcoDesign-Link/commit/0cac740b2b98510e5f39f4488aabcd653eeb4824))
+
 ## 🎉 1.0.3 `2024-02-23`
 ### ✨ Feature
 - 온라인 데모를 늘리십시오 ([#e69ec60](https://github.com/kwooshung/Nextjs-ArcoDesign-Link/commit/e69ec60397d14f5cfbfb6ad0d8836011e02e99c8))
