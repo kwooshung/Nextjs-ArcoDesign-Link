@@ -1,3 +1,7 @@
+## 🎉 2.0.1 `2024-02-24`
+### 🐛 Fix
+- 修復案例代碼 ([#0e6aea3](https://github.com/kwooshung/Nextjs-ArcoDesign-Link/commit/0e6aea3816000ecd308857d16028403f133f1960))
+
 ## 🎉 2.0.0 `2024-02-24`
 ### ✨ Feature
 - 添加了一個全局REL列表以支持自動判斷地址 ([#41924df](https://github.com/kwooshung/Nextjs-ArcoDesign-Link/commit/41924df1053d01cf5c088bc841645d771b5a78a3))
