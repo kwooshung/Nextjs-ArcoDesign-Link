@@ -56,7 +56,7 @@ const Link: FC<ILinkProps> = ({
       {...{ style, href, as, replace, scroll, shallow, passHref, prefetch, locale, legacyBehavior, onMouseEnter, onTouchStart, onClick }}
       {...restProps}
       rel={computedRel}
-      className={className ? (Array.isArray(className) ? className.join(' ') : className) : ''}>
+      className={className ? (Array.isArray(className) ? className.join(' ') : className) : undefined}>
       <LinkArcoDesign {...{ style, icon, status, disabled, hoverable }}>{children}</LinkArcoDesign>
     </LinkNext>
   );
