@@ -1,3 +1,7 @@
+## 🎉 2.0.2 `2024-02-24`
+### 🐛 Fix
+- 如果沒有設置類，則沒有類，也不會空，請增加無效的屬性 ([#b3ebd1b](https://github.com/kwooshung/Nextjs-ArcoDesign-Link/commit/b3ebd1b8edcf1f33e574faaf4f0591ad889d5f49))
+
 ## 🎉 2.0.1 `2024-02-24`
 ### 🐛 Fix
 - 修復案例代碼 ([#0e6aea3](https://github.com/kwooshung/Nextjs-ArcoDesign-Link/commit/0e6aea3816000ecd308857d16028403f133f1960))
