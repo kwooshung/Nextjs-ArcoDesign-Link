@@ -1,3 +1,7 @@
+## 🎉 2.0.3 `2024-06-13`
+### ✨ Feature
+- 兼容的新版本 ([#f8a4a67](https://github.com/kwooshung/Nextjs-ArcoDesign-Link/commit/f8a4a678a0f3ed5f3450949bc2644ddbc961aafd))
+
 ## 🎉 2.0.2 `2024-02-24`
 ### 🐛 Fix
 - 如果沒有設置類，則沒有類，也不會空，請增加無效的屬性 ([#b3ebd1b](https://github.com/kwooshung/Nextjs-ArcoDesign-Link/commit/b3ebd1b8edcf1f33e574faaf4f0591ad889d5f49))
