@@ -1,5 +1,5 @@
 import { FC, ReactNode, useContext, useEffect, useState } from 'react';
-import LinkNext from 'next/link';
+import LinkNext from 'next/link'
 import { Link as LinkArcoDesign } from '@arco-design/web-react';
 import LinkContext from './linkContext';
 import { ILinkProps } from './interfaces';

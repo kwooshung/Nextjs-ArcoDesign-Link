@@ -1,7 +1,10 @@
 import Link from './link';
+import LinkProvider from './link/linkProvider';
 
 const App = () => {
-  return <Link href='/'>Demo</Link>;
+  return <LinkProvider>
+    <Link href='/'>Demo</Link>
+  </LinkProvider>;
 };
 
 export default App;
