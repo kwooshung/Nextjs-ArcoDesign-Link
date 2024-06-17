@@ -1,3 +1,7 @@
+## 🎉 2.0.4 `2024-06-17`
+### 🐛 Fix
+- HREF는 비어있을 수 있으며 기본값이 있습니다 ([#16cf35d](https://github.com/kwooshung/Nextjs-ArcoDesign-Link/commit/16cf35deca6a1d618ee1cc00c0081750b3189ecf))
+
 ## 🎉 2.0.3 `2024-06-13`
 ### ✨ Feature
 - 호환 된 새 버전 ([#f8a4a67](https://github.com/kwooshung/Nextjs-ArcoDesign-Link/commit/f8a4a678a0f3ed5f3450949bc2644ddbc961aafd))
