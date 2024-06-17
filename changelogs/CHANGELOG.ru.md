@@ -1,3 +1,7 @@
+## 🎉 2.0.4 `2024-06-17`
+### 🐛 Fix
+- Href может быть пустым и имеет значение по умолчанию ([#16cf35d](https://github.com/kwooshung/Nextjs-ArcoDesign-Link/commit/16cf35deca6a1d618ee1cc00c0081750b3189ecf))
+
 ## 🎉 2.0.3 `2024-06-13`
 ### ✨ Feature
 - Совместимая новая версия ([#f8a4a67](https://github.com/kwooshung/Nextjs-ArcoDesign-Link/commit/f8a4a678a0f3ed5f3450949bc2644ddbc961aafd))
