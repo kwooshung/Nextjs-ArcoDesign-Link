@@ -76,7 +76,7 @@ export interface ILinkProps extends Omit<AnchorHTMLAttributes<HTMLAnchorElement>
    *
    * @example https://nextjs.org/docs/api-reference/next/link#with-url-object
    */
-  href: Url;
+  href?: Url;
   /**
    * @zh 将显示在浏览器 URL 栏中的路径的可选装饰器。 在 Next.js 9.5.3 之前，这用于动态路由，请查看我们的[以前的文档](https://github.com/vercel/next.js/blob/v9.5.2/docs/api-reference/next/link .md#dynamic-routes）看看它是如何工作的。 注意：当此路径与 `href` 中提供的路径不同时，将使用之前的 `href`/`as` 行为，如 [之前的文档](https://github.com/vercel/next.js/blob) 中所示 /v9.5.2/docs/api-reference/next/link.md#dynamic-routes）。
    * @en Optional decorator for the path that will be shown in the browser URL bar. Before Next.js 9.5.3 this was used for dynamic routes, check our [previous docs](https://github.com/vercel/next.js/blob/v9.5.2/docs/api-reference/next/link.md#dynamic-routes) to see how it worked. Note: when this path differs from the one provided in `href` the previous `href`/`as` behavior is used as shown in the [previous docs](https://github.com/vercel/next.js/blob/v9.5.2/docs/api-reference/next/link.md#dynamic-routes).
