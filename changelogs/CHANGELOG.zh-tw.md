@@ -1,3 +1,7 @@
+## 🎉 2.0.5 `2024-06-20`
+### ✨ Feature
+- 增加鏈接配置屬性以避免無法自定義內部鏈接組件 ([#dda0dc1](https://github.com/kwooshung/Nextjs-ArcoDesign-Link/commit/dda0dc14435bde844263fa6aaf6b6c876b0144f4))
+
 ## 🎉 2.0.4 `2024-06-17`
 ### 🐛 Fix
 - HREF可以是空的，並且具有默認值 ([#16cf35d](https://github.com/kwooshung/Nextjs-ArcoDesign-Link/commit/16cf35deca6a1d618ee1cc00c0081750b3189ecf))
