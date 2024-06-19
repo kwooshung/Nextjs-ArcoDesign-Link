@@ -1,3 +1,7 @@
+## 🎉 2.0.7 `2024-06-20`
+### 🐛 Fix
+- Update document error description ([#68a4e40](https://github.com/kwooshung/Nextjs-ArcoDesign-Link/commit/68a4e40453cebb33ef3a65a4b97e74e1ee22c00e))
+
 ## 🎉 2.0.6 `2024-06-20`
 ### 🐛 Fix
 - Modify the document description ([#210cc38](https://github.com/kwooshung/Nextjs-ArcoDesign-Link/commit/210cc38b0c13077e6b9b43bfa8e39ca3f586f69f))
