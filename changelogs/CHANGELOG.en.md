@@ -1,3 +1,7 @@
+## 🎉 2.0.6 `2024-06-20`
+### 🐛 Fix
+- Modify the document description ([#210cc38](https://github.com/kwooshung/Nextjs-ArcoDesign-Link/commit/210cc38b0c13077e6b9b43bfa8e39ca3f586f69f))
+
 ## 🎉 2.0.5 `2024-06-20`
 ### ✨ Feature
 - Increase the link configuration attribute to avoid being unable to customize internal link components ([#dda0dc1](https://github.com/kwooshung/Nextjs-ArcoDesign-Link/commit/dda0dc14435bde844263fa6aaf6b6c876b0144f4))

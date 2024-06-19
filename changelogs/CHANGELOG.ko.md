@@ -1,3 +1,7 @@
+## 🎉 2.0.6 `2024-06-20`
+### 🐛 Fix
+- 문서 설명을 수정하십시오 ([#210cc38](https://github.com/kwooshung/Nextjs-ArcoDesign-Link/commit/210cc38b0c13077e6b9b43bfa8e39ca3f586f69f))
+
 ## 🎉 2.0.5 `2024-06-20`
 ### ✨ Feature
 - 내부 링크 구성 요소를 사용자 정의 할 수 없도록 링크 구성 속성을 늘리십시오. ([#dda0dc1](https://github.com/kwooshung/Nextjs-ArcoDesign-Link/commit/dda0dc14435bde844263fa6aaf6b6c876b0144f4))
