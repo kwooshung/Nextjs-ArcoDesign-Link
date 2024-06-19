@@ -1,3 +1,4 @@
+import LinkNext from 'next/link';
 import { createContext } from 'react';
 import { ILinkContext } from './interfaces';
 
@@ -33,6 +34,7 @@ const socialMediaPlatforms = [
  * @en Themes context
  */
 const LinkContext = createContext<ILinkContext>({
+  link: LinkNext,
   whiteList: [...searchEngines, ...socialMediaPlatforms]
 });
 

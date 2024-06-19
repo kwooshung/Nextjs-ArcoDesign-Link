@@ -1,5 +1,5 @@
-import { FC, ReactNode, useContext, useEffect, useState } from 'react';
 import LinkNext from 'next/link';
+import { FC, ReactNode, useContext, useEffect, useState } from 'react';
 import { Link as LinkArcoDesign } from '@arco-design/web-react';
 import LinkContext from './linkContext';
 import { ILinkProps } from './interfaces';
@@ -51,14 +51,16 @@ const Link: FC<ILinkProps> = ({
     }
   }, [context?.whiteList, href, rel]);
 
+  const LinkComponent = context?.link || LinkNext;
+
   return (
-    <LinkNext
+    <LinkComponent
       {...{ style, href, as, replace, scroll, shallow, passHref, prefetch, locale, legacyBehavior, onMouseEnter, onTouchStart, onClick }}
       {...restProps}
       rel={computedRel}
       className={className ? (Array.isArray(className) ? className.join(' ') : className) : undefined}>
       <LinkArcoDesign {...{ style, icon, status, disabled, hoverable }}>{children}</LinkArcoDesign>
-    </LinkNext>
+    </LinkComponent>
   );
 };
 
