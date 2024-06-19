@@ -1,3 +1,7 @@
+## 🎉 2.0.5 `2024-06-20`
+### ✨ Feature
+- Increase the link configuration attribute to avoid being unable to customize internal link components ([#dda0dc1](https://github.com/kwooshung/Nextjs-ArcoDesign-Link/commit/dda0dc14435bde844263fa6aaf6b6c876b0144f4))
+
 ## 🎉 2.0.4 `2024-06-17`
 ### 🐛 Fix
 - href can be empty and has a default value ([#16cf35d](https://github.com/kwooshung/Nextjs-ArcoDesign-Link/commit/16cf35deca6a1d618ee1cc00c0081750b3189ecf))

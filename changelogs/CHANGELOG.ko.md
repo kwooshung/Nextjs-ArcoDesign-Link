@@ -1,3 +1,7 @@
+## 🎉 2.0.5 `2024-06-20`
+### ✨ Feature
+- 내부 링크 구성 요소를 사용자 정의 할 수 없도록 링크 구성 속성을 늘리십시오. ([#dda0dc1](https://github.com/kwooshung/Nextjs-ArcoDesign-Link/commit/dda0dc14435bde844263fa6aaf6b6c876b0144f4))
+
 ## 🎉 2.0.4 `2024-06-17`
 ### 🐛 Fix
 - HREF는 비어있을 수 있으며 기본값이 있습니다 ([#16cf35d](https://github.com/kwooshung/Nextjs-ArcoDesign-Link/commit/16cf35deca6a1d618ee1cc00c0081750b3189ecf))

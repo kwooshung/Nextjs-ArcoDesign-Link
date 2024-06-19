@@ -8,6 +8,6 @@ import { ILinkProviderProps } from './interfaces';
  * @param {ILinkProviderProps} props 属性
  * @return {ReactNode} React节点
  */
-const LinkProvider: FC<ILinkProviderProps> = ({ whiteList, children }: ILinkProviderProps): ReactNode => <LinkContext.Provider value={{ whiteList }}>{children}</LinkContext.Provider>;
+const LinkProvider: FC<ILinkProviderProps> = ({ link, whiteList, children }: ILinkProviderProps): ReactNode => <LinkContext.Provider value={{ link, whiteList }}>{children}</LinkContext.Provider>;
 
 export default LinkProvider;

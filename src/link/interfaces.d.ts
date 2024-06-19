@@ -4,6 +4,11 @@ import type { UrlObject } from 'url';
 
 export interface ILinkContext {
   /**
+   * @zh 链接组件：比如一些有路由功能的国际化组件，会导出专用的 `Link`，这个时候就不能使用默认的 `next/Link` 组件，而是使用传入的 `link`。
+   * @en Link component: For example, some internationalization components with routing functions will export a dedicated `Link`, at this time, you cannot use the default `next/Link` component, but use the passed `link`.
+   */
+  link?: any;
+  /**
    * @zh 白名单，不包含协议，只需写域名即可，例如：`['example.com', 'example.org']`
    * @en Whitelist, without protocol, just write the domain name, for example: `['example.com', 'example.org']`
    */
@@ -15,6 +20,11 @@ export interface ILinkContext {
  * @en Link provider props
  */
 export interface ILinkProviderProps {
+  /**
+   * @zh 链接组件：比如一些有路由功能的国际化组件，会导出专用的 `Link`，这个时候就不能使用默认的 `next/Link` 组件，而是使用传入的 `link`。
+   * @en Link component: For example, some internationalization components with routing functions will export a dedicated `Link`, at this time, you cannot use the default `next/Link` component, but use the passed `link`.
+   */
+  link?: any;
   /**
    * @zh 白名单，不包含协议，只需写域名即可，例如：`['example.com', 'example.org']`
    * @en Whitelist, without protocol, just write the domain name, for example: `['example.com', 'example.org']`
